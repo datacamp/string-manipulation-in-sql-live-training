@@ -12,49 +12,42 @@ This part of the 'Live training Spec' process is designed to help guide you thro
 
 ### A. What problem(s) will students learn how to solve? (minimum of 5 problems)
 
-> _Here's an example from the Python for Spreadsheeets Users live session_
->
-> - Key considerations to take in when transitioning from spreadsheets to Python.
-> - The Data Scientist mindset and keys to success in transitioning to Python.
-> - How to import `.xlsx` and `.csv` files into Python using `pandas`.
-> - How to filter a DataFrame using `pandas`.
-> - How to create new columns out of your DataFrame for more interesting features.
-> - Perform exploratory analysis of a DataFrame in `pandas`.
-> - How to clean a DataFrame using `pandas` to make it ready for analysis.
-> - Apply common spreadsheets operations such as pivot tables and vlookups in Python using `pandas`.
-> - Create simple, interesting visualizations using `matplotlib`.
+>- Explore a dataset in a SQL database by examining table structure and data types
+>- Converting or casting common data types
+>- How to manipulate date time data using built-in date and time functions
+>- How to manipulate string data using built-in string and character functions
+>- Create temporary tables and use them to simply complex queries
+>- Learn how to use temporary tables to create new fields from unstructured string data
+>- Create user defined functions that can be used to simplify data manipulation tasks
 
 
 ### B. What technologies, packages, or functions will students use? Please be exhaustive.
 
-> - pandas
-> - matplotlib
-> - seaborn
+>- EXTRACT, DATE_PART, DATE_TRUNC
+>- SUBSTRING, LEFT, RIGHT
+>- array()
+>- split_part()
+>- CHAR_LENGTH, POSITION
+>- CAST
+>- CREATE TABLE, DROP TABLE
+>- CREATE FUNCTION
 
 ### C. What terms or jargon will you define?
 
 _Whether during your opening and closing talk or your live training, you might have to define some terms and jargon to walk students through a problem you’re solving. Intuitive explanations using analogies are encouraged._
 
-> _Here's an example from the [Python for Spreadsheeets Users live session](https://www.datacamp.com/resources/webinars/live-training-python-for-spreadsheet-users)._
-> 
-> - Packages: Packages are pieces of software we can import to Python. Similar to how we download, install Excel on MacOs, we import pandas on Python. (You can find it at minute 6:30)
-
-### D. What mistakes or misconceptions do you expect? 
-
-_To help minimize the amount of Q&As and make your live training re-usable, list out some mistakes and misconceptions you think students might encounter along the way._
-
-> _Here's an example from the [Data Visualization in Python live session](https://www.datacamp.com/resources/webinars/data-visualization-in-python)_
-> 
-> - Anatomy of a matplotlib figure: When calling a matplotlib plot, a figure, axes and plot is being created behind the background. (You can find it at minute 11)
-> - As long as you do understand how plots work behind the scenes, you don't need to memorize syntax to customize your plot. 
+>- Data types
+>- Built-in functions 
+>- User-defined functions
+>- Date / time characteristics like "date parts"
+>- Normalization
+>- TEMP tables
 
 ### E. What datasets will you use? 
 
 Live training sessions are designed to walk students through something closer to a real-life data science workflow. Accordingly, the dataset needs to accommodate that user experience. 
 As a rule of thumb, your dataset should always answer yes to the following question: 
-> Is the dataset/problem I’m working on, something an industry data scientist/analyst could work on? 
-
-Check our [datasets to avoid](https://instructor-support.datacamp.com/en/articles/2360699-datasets-to-avoid) list. 
+> Short Term Rentals in Cambridge, MA - https://data.cambridgema.gov/Inspectional-Services/Short-Term-Rentals/wxgv-w968
 
 ## Step 2: Who is this session for?
 
@@ -67,13 +60,13 @@ Terms like "beginner" and "expert" mean different things to different people, so
 
 *Check all that apply.*
 
-- [ ] Data Consumer
+- [X] Data Consumer
 - [ ] Leader 
-- [ ] Data Analyst
+- [X] Data Analyst
 - [ ] Citizen Data Scientist
 - [ ] Data Scientist
 - [ ] Data Engineer
-- [ ] Database Administrator
+- [X] Database Administrator
 - [ ] Statistician
 - [ ] Machine Learning Scientist
 - [ ] Programmer
@@ -96,6 +89,10 @@ Terms like "beginner" and "expert" mean different things to different people, so
 ## Step 3: Prerequisites
 
 List any prerequisite courses you think your live training could use from. This could be the live session’s companion course or a course you think students should take before the session. Prerequisites act as a guiding principle for your session and will set the topic framework, but you do not have to limit yourself in the live session to the syntax used in the prerequisite courses.
+
+Functions for Manipulating Data in PostgreSQL
+Intermediate SQL
+Exploratory Data Analysis in SQL
 
 
 ## Step 4: Session Outline
