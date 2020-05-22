@@ -16,7 +16,7 @@ This part of the 'Live training Spec' process is designed to help guide you thro
 >- Converting or casting common data types
 >- How to manipulate date time data using built-in date and time functions
 >- How to manipulate string data using built-in string and character functions
->- Create temporary tables and use them to simply complex queries
+>- Create temporary tables and use them to simplify complex queries
 >- Learn how to use temporary tables to create new fields from unstructured string data
 >- Create user defined functions that can be used to simplify data manipulation tasks
 
@@ -81,10 +81,9 @@ Terms like "beginner" and "expert" mean different things to different people, so
 
 *List three or more examples of skills that you expect learners to have before beginning the live training*
 
-> - Can draw common plot types (scatter, bar, histogram) using matplotlib and interpret them
-> - Can run a linear regression, use it to make predictions, and interpret the coefficients.
-> - Can calculate grouped summary statistics using SELECT queries with GROUP BY clauses.
-
+> - Can use SELECT queries to retrieve data from PostgreSQL database
+> - Can use PostgreSQL built-in functions in SQL queries
+> - Understands what a user-defined function is and how to use one in SQL queries
 
 ## Step 3: Prerequisites
 
@@ -99,6 +98,15 @@ Exploratory Data Analysis in SQL
 
 A live training session usually begins with an introductory presentation, followed by the live training itself, and an ending presentation. Your live session is expected to be around 2h30m-3h long (including Q&A) with a hard-limit at 3h30m. You can check out our live training content guidelines [here](_LINK_). 
 
+> ### Introduction Slides 
+> - Introduction to the webinar and instructor (led by DataCamp TA)
+> - Introduction to the topics
+>   - Discuss need to become data fluent
+>   - Define data fluency
+>   - Discuss how learning Python fits into that and go over session outline
+>   - Set expectations about Q&A
+>
+> ### Live Training
 
 > _Example from [Python for Spreadsheet Users](https://www.datacamp.com/resources/webinars/live-training-python-for-spreadsheet-users)_
 >
