@@ -105,42 +105,23 @@ A live training session usually begins with an introductory presentation, follow
 >   - Define data fluency
 >   - Discuss how learning Python fits into that and go over session outline
 >   - Set expectations about Q&A
->
-> ### Live Training
+> ### Exploring the Dataset
+> - What Have We Learned About the Short Term Rentals Data
+> - Q&A
+> ### Using built-in functions to mainpulate string and character data
+> - Converting data from one type to another using `CAST()`
+> - Extracting string data using `SUBSTRING()` and `POSTIION()`
+> - Extracting string data using `split_part()
+> - Using `ARRAYS` to manipulate strings stored as comma-separated-values
+> - What Have We Learned About the Short Term Rentals Data
+> - Q&A
+> ### Using temporary tables to simplify complex queries
+> - Creating a temporary table with our rental services
+> ### User-defined functions to create reusable code
+> ### Putting it all together!
+> ### Q&A
+> ### Recap and closing
 
-> _Example from [Python for Spreadsheet Users](https://www.datacamp.com/resources/webinars/live-training-python-for-spreadsheet-users)_
->
-> ### Introduction Slides 
-> - Introduction to the webinar and instructor (led by DataCamp TA)
-> - Introduction to the topics
->   - Discuss need to become data fluent
->   - Define data fluency
->   - Discuss how learning Python fits into that and go over session outline
->   - Set expectations about Q&A
->
-> ### Live Training
-> #### Exploratory Data Analysis
-> - Import data and print header of DataFrame `pd.read_excel()`, `.head()`
-> - Glimpse at the data to
->   - Get column types using `.dtypes`
->   - Use `.describe()`, `.info()`
-> - **Q&A** 
-> #### Data Cleaning and making it ready for analysis
-> - Convert date columns to datetime `pd.to_datetime()`
-> - Change column names
-> - Extract year, month from datetime `.strftime()`
-> - Drop an irrelevant column `.drop()`
-> - Fill missing values with `.fillna()`
-> #### Creating a report
-> - First report question: What is our overall sales performance this year? `.groupby()`, `.plt.plot()`
-> - Second report question: What is our overall sales performance this year? `.merge()`, `.groupby()`, `plt.plot()`
-> - Third report question: What is our overall sales performance this year? `.merge()`, `.groupby()`, `plt.plot()`
-> - **Q&A**
->
-> ### Ending slides
-> - Recap of what we learned
-> - The data science mindset
-> - Call to action and course recommendations
 
 ## Authoring your session
 
